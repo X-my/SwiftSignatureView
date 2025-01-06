@@ -181,4 +181,7 @@ extension PencilKitSignatureView: PKCanvasViewDelegate {
     delegate?.swiftSignatureViewDidDraw(self)
   }
 
+  public func canvasViewDidBeginUsingTool(_ canvasView: PKCanvasView) {
+    delegate?.swiftSignatureViewDidDraw(self)
+  }
 }
